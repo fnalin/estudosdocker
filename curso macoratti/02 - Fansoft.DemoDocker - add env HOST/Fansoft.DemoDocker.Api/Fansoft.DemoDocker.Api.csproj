@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="dist\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\dist\web.config" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\web.config" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\web.config" />
+      <_ContentIncludedByDefault Remove="dist\dist\web.config" />
+      <_ContentIncludedByDefault Remove="dist\web.config" />
+      <_ContentIncludedByDefault Remove="dist\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="dist\appsettings.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\appsettings.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\appsettings.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\appsettings.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\dist\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\dist\appsettings.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\dist\Fansoft.DemoDocker.Api.deps.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\dist\Fansoft.DemoDocker.Api.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\Fansoft.DemoDocker.Api.deps.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\dist\Fansoft.DemoDocker.Api.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\Fansoft.DemoDocker.Api.deps.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\dist\Fansoft.DemoDocker.Api.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\Fansoft.DemoDocker.Api.deps.json" />
+      <_ContentIncludedByDefault Remove="dist\dist\Fansoft.DemoDocker.Api.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="dist\Fansoft.DemoDocker.Api.deps.json" />
+      <_ContentIncludedByDefault Remove="dist\Fansoft.DemoDocker.Api.runtimeconfig.json" />
+    </ItemGroup>
+
+</Project>

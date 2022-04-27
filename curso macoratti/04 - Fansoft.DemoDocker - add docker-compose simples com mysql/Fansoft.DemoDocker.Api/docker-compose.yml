@@ -1,0 +1,23 @@
+version: "3"
+
+volumes:
+    produtosdata:
+
+networks:
+    frontend:
+    backend:
+
+services:
+    
+    mysql:
+        image: "mysql:5.7"
+        volumes:
+            - produtosdata:/var/lib/mysql
+        networks:
+            - backend
+        environment:
+            - MYSQL_ROOT_PASSWORD=123456@qwerty
+            - bind-address=0.0.0.0
+              
+# docker-compose build
+# docker-compose up
